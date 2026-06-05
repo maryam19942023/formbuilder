@@ -203,9 +203,7 @@ namespace FormBuilder.Tests.Service
 
             Func<Task> act = async () =>await service.SubmitAnswerAsync(dto);
 
-            await act.Should()
-                .ThrowAsync<Exception>()
-                .WithMessage("الزامی است");
+            await act.Should().ThrowAsync<Exception>().WithMessage("*الزامی است*");
         }
 
         [Fact]

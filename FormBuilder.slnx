@@ -1,7 +1,7 @@
 <Solution>
+  <Project Path="FormBuilder.API/FormBuilder.API.csproj" />
   <Project Path="FormBuilder.Application/FormBuilder.Application.csproj" />
   <Project Path="FormBuilder.Domain/FormBuilder.Domain.csproj" />
   <Project Path="FormBuilder.Infrastructure/FormBuilder.Infrastructure.csproj" />
   <Project Path="FormBuilder.Tests/FormBuilder.Tests.csproj" Id="18b0fd2b-27c1-4e55-bd82-688f09a3c11d" />
-  <Project Path="FormBuilder/FormBuilder.API.csproj" />
 </Solution>
